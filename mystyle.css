@@ -1,0 +1,180 @@
+#header {width:auto;
+        height: auto;}
+
+#logo 	{display: block;
+		 clear:both;
+		 position: relative;
+		 height: 200px}
+		 
+#icon {display: inline block;
+         float: right;
+		 height:25px;}
+
+#mediaicon	 {display:none;}
+
+#social {display:inline block;
+        height: 45px;}
+		
+#contact {width: 350px;
+          }		  
+		 
+		 
+#nav {display: inline block;
+	 height:auto;
+	 width:auto;
+	 background: black;
+	 color: white;
+	 font-family: Calibri Light, Arial, Helvetica;
+	 clear:both;
+	 position: relative;
+	 font-size: 140%;
+	 font-weight: bold;
+	 }
+	 
+#navmenu {display: none;}
+
+#socialmedia  {width: auto;
+			  height: auto;}
+		 
+
+#footer {width: auto;
+        height: auto;}
+
+ul {margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: center;}
+
+ul li {display: inline; }	
+		
+ul li a  	{text-decoration: none;
+		color: white;
+		background-color: black;}		
+		
+ul li a:hover   {color: white;
+			background-color: gray;}		
+		
+		
+		
+a:link {color:white;
+	   text-decoration:none;}
+
+a:hover {
+    color: gray;
+    text-decoration:none;}
+a:active {
+    color:#5C005C;
+    text-decoration:none;}
+a:visited {
+    color:white;
+    text-decoration:none;}	
+		 
+p {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-right: 100px;
+    margin-left: 80px;
+	text-align: justify;
+	font-family: Calibri Light, Arial, Helvetica;}
+	
+H1 {background: black;
+    color: white;
+	font-family: Calibri Light, Arial, Helvetica;}
+
+H2 {color: #5C005C;
+   font-family: Calibri Light, Arial, Helvetica;}
+
+H3 {color: #191919;
+	font-family: Calibri Light, Arial, Helvetica;}
+
+P1 {color: black;
+	font-family: Calibri Light, Arial, Helvetica;}
+		
+	
+	
+	
+	
+	
+		
+																/*MEDIA QUERY*/
+			 
+																@media only screen and (max-width : 800px) {
+			
+																#header {width:auto;
+																		height: auto;
+																		}
+			
+																#logo {display:inline;
+																	  clear:both;
+																	  position: relative;
+																	  height: 90px;}
+																	  
+																#mediaicon {display: inline;
+																			height:25px;}
+																
+																#icon {display:none;}
+																
+																#social {display:inline block;
+																		height: 30px;}
+															    
+																#contact {width:250px;
+																          }
+									
+																#nav {display: none;}
+																
+																
+																#navmenu 	{display:block;																	
+																			font-family: Calibri Light, Arial, Helvetica;
+																			float:left;
+																			position: relative;
+																			font-size: 100%;
+																			font-weight: bold;
+																			z-index:1000;
+																			
+																			}
+																		
+																	#menuicon {
+																		  display:block;
+																          height: 40px;
+																		  position:relative;}
+																   
+																
+	#navmenu ul, #navmenu ul li{
+    margin:0;
+    padding:0;
+    list-style:none;}
+	
+	#navmenu ul li{
+    background-color:black;
+    cursor:pointer;}
+	
+	#navmenu ul li:hover{
+    position:relative;}															
+																
+	#navmenu ul li a{
+    padding:10px 10px;
+    color:white;
+    display:block;
+    text-decoration:none;}														
+
+	#navmenu ul li ul{
+    position:absolute;
+    display:none;}
+
+#navmenu ul li:hover ul{
+    top:0px;
+    display:block;}
+
+																p {
+																	margin-top: 5px;
+																	margin-bottom: 10px;
+																	margin-right: 50px;
+																	margin-left: 30px;
+																	text-align: justify;
+																	font-family: Calibri Light, Arial, Helvetica;}
+								   
+								                                 }
+								   
+								   
+								   
+								   
